@@ -1,0 +1,150 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+    height: 100vh;
+    margin: 0;
+    background-color: #eaeaea;
+}
+
+ h2, h3, h4, h4, h5, h6 {
+	font-family: sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+
+ /* Style for the flag container */
+ .green {
+ 	width: 800px;
+ 	height: 480px;
+ 	background: #006a4e; /* Green background green;*/
+ 	position: relative;
+ 	 display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+/* Style for the red circle */
+ .red{
+ 	width: 320px;
+ 	height: 320px;
+ 	border-radius: 100%;
+ 	background: #f42a41; /* Red circle */
+ 	position: absoulute;
+ transform: translate(5%, 5%);
+
+/*    margin-left: 30px; /* Offset to the left */*/
+ }
+
+
+
+
+ .fb-share {
+
+ 	width: 140px;
+ 	position: fixed;
+ 	top: 50%;
+ 	right: -95px;
+ 	transition: 1s ease-in;
+ }
+
+
+
+.tw-share{
+width: 140px;
+ 	position: fixed;
+ 	top: 57%;
+ 	right: -95px;
+ 	transition: 1s ease-in;
+
+}
+
+.li-share{
+width: 140px;
+ 	position: fixed;
+ 	top: 64%;
+ 	right: -95px;
+ 	transition: 1s ease-in;
+}
+
+.yt-share{
+width: 140px;
+ 	position: fixed;
+ 	top: 71%;
+ 	right: -95px;
+ 	transition: 1s ease-in;
+}
+
+
+.in-share{
+	width: 140px;
+ 	position: fixed;
+ 	top: 78%;
+ 	right: -95px;
+ 	transition: 1s ease-in;
+}
+
+
+ .fb-share:hover,.tw-share:hover,.li-share:hover,.yt-share:hover,.in-share:hover{
+ 	right: 2px;
+ 	cursor:pointer;
+ }
+
+
+
+ .social-media {
+ 	width: 100%;
+ 	padding: 100px 0px;
+ 	background:url("../images/bg.jpg") center no-repeat ;
+ 	background-size: cover;
+ 	/*background-repeat: no-repeat;
+ 	background-position: center;
+ 	*/
+ }
+
+ .social-media-icons{
+
+ 	width: 100%;
+ 	text-align: center;
+
+ }
+
+
+ .social-media-icons li {
+ 	line-height: none;
+ 	display: inline-block;
+ }
+
+  .social-media-icons li a{
+  	display: block;
+  	width: 80px;
+  	height: 80px;
+  	line-height: 80px;
+  	border-radius: 100%;
+  	text-align: center;
+  	background: #08c;
+  	color: #fff;
+  	font-size: 35px;
+  	margin: 0px 15px;
+  	transition: 1s ease-in;
+  }
+
+
+  .social-media-icons li a:hover{
+background: #000;
+color:#08c;
+
+  }
